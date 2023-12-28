@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Transaksi Barang by Larynt Sawfa Kenanga</title>
+</head>
+<body>
+    <h1>Transaksi Barang</h1>
+    <p>Dibuat Oleh: </p>
+    <ul>
+        <li>Nama: Larynt Sawfa Kenanga</li>
+        <li>NIM: 2021110370311189</li>
+        <li>Kelas: Prak. Pemrograman Web E</li>
+    </ul>
+    <table id="tableTransaksi">
+        <thead>
+            <tr>
+                <th>Kode</th>
+                <th>Barang</th>
+                <th>Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td>001</td>
+                <td>Barang A</td>
+                <td>10.000</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Barang B</td>
+                <td>20.000</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Barang C</td>
+                <td>30.000</td>
+            </tr> -->
+        </tbody>
+    </table>
+    <h1>Inputan User</h1>
+    <table>
+        <form action="/">
+            <tr>
+                <td><label for="kode">Masukkan Kode</label></td>
+                <td> : </td>
+                <td>
+                    <input type="text" id="kode">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="banyakBarang">Banyaknya Barang</label></td>
+                <td> : </td>
+                <td><input type="number" id="banyakBarang"></td>
+            </tr>
+            <tr>
+                <td colspan="3"><button type="submit" onclick="hitungTotal()">Submit</button></td>
+            </tr>
+        </form>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
